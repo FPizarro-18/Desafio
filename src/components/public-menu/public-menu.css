@@ -1,0 +1,8 @@
+.barra {
+    height: 40px !important; /*i assume your navbar size 100px*/
+    color:white;
+}
+
+.navlink{
+    color:whitesmoke;
+}
