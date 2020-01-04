@@ -50,6 +50,7 @@ const Login = (props) => {
      };
 
     return (
+      <div>
         <Form onSubmit={handlerSubmit}>
            <legend>Login</legend>
           <FormGroup>
@@ -76,7 +77,7 @@ const Login = (props) => {
         <Button>Login</Button>
         <Link to="/registro" className="btn btn-link">Registrate</Link>
       </Form>
-      
+      </div>
     );
 };
 

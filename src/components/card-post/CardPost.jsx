@@ -1,7 +1,6 @@
 import React from 'react';
 import { Card, CardBody, CardHeader,CardImg, CardFooter } from 'reactstrap'; 
 import './card-post.css'
-import ReadMoreReact from 'read-more-react';
 import { Link } from 'react-router-dom';
 
 

@@ -69,3 +69,16 @@ button {
 }
 
 
+.table{
+  border: 1px solid black;
+  background-color:silver;
+  width: 100%;
+}
+
+th {
+  text-align: left;
+}
+
+.edit{
+  color:white;
+}

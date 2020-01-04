@@ -32,7 +32,7 @@ import SwitchColor from  '../../components/switch/Switch'
     return (
       <div>
         <NavbarRS color="light" light expand="md">
-          <NavbarBrand href="">React
+          <NavbarBrand href="/private/home/">Desafio Latam
          
           </NavbarBrand>
           <NavbarToggler onClick={toggle} />

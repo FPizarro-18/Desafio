@@ -26,8 +26,8 @@ const UserList = () =>{
             <Container>
                 
             <Menu></Menu>
-        Listado de Usuarios
-        <Table hover> <thead>
+        <legend>Listado de Usuarios</legend>
+        <Table hover className="table"> <thead>
         <th>ID</th>
             <th>Nombre</th>
             <th>Correo</th>
@@ -59,7 +59,7 @@ const UserList = () =>{
                                 <td>{user.id}</td>
                                 <td>{user.name}</td>
                                 <td>{user.email}</td>
-                                <td><Link to={`/private/users/view/${user.id}`}>Editar</Link> </td>
+                                <td className="edit"><Link to={`/private/users/view/${user.id}`}>Editar</Link> </td>
                                 
                             </tr>
                         ))}
